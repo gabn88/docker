@@ -1,7 +1,7 @@
 version: '2'
 services:
   weblate:
-    image: weblate/weblate
+    build: https://github.com/gabn88/docker.git#docker
     links:
       - database
       - cache
